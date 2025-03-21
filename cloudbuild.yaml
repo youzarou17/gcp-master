@@ -1,0 +1,6 @@
+steps:
+  - name: 'ubuntu'
+    args: ['echo', 'Test de déclencheur réussi !']
+options:
+  serviceAccount: 'Vci-cd-build@fine-method-448913-b8.iam.gserviceaccount.com' # Remplacez par votre compte de service
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
