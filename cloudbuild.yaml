@@ -4,5 +4,5 @@ steps:
 images:
   - 'gcr.io/$PROJECT_ID/$REPO_NAME:$COMMIT_SHA'
 options:
-  serviceAccount: 'Vci-cd-build@fine-method-448913-b8.iam.gserviceaccount.com' # Remplacez par votre compte de service
+  serviceAccount: 'ci-cd-build@fine-method-448913-b8.iam.gserviceaccount.com' # Remplacez par votre compte de service
   defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
